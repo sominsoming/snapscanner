@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts'
 import { Home, BarChart2, Settings, LogOut, FileText, DollarSign, TrendingUp, Calendar, Clock } from 'lucide-react'
 
-// 임시 데이터 (실제로는 서버에서 가져와야 합니다)
+
 const categoryData = [
   { category: '인건비', amount: 5000000, lastMonth: 4800000 },
   { category: '운영비', amount: 2000000, lastMonth: 2200000 },
